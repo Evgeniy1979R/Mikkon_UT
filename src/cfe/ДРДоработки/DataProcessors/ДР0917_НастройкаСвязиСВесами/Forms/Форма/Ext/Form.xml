@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="ДР0917_АдресUniServerAUTO" id="1">
+			<DataPath>Объект.ДР0917_АдресUniServerAUTO</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДР0917_АдресUniServerAUTOКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ДР0917_АдресUniServerAUTOРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="ДР0917_ПортUniServerAUTO" id="4">
+			<DataPath>Объект.ДР0917_ПортUniServerAUTO</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДР0917_ПортUniServerAUTOКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДР0917_ПортUniServerAUTOРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ДР0917_ЛогинUniServerAUTO" id="7">
+			<DataPath>Объект.ДР0917_ЛогинUniServerAUTO</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДР0917_ЛогинUniServerAUTOКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ДР0917_ЛогинUniServerAUTOРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ДР0917_ПарольUniServerAUTO" id="10">
+			<DataPath>Объект.ДР0917_ПарольUniServerAUTO</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДР0917_ПарольUniServerAUTOКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ДР0917_ПарольUniServerAUTOРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ДР0917_МетодUniServerAUTOПост1" id="13">
+			<DataPath>Объект.ДР0917_МетодUniServerAUTOПост1</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДР0917_МетодUniServerAUTOПост1КонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ДР0917_МетодUniServerAUTOПост1РасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ДР0917_МетодUniServerAUTOПост2" id="16">
+			<DataPath>Объект.ДР0917_МетодUniServerAUTOПост2</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДР0917_МетодUniServerAUTOПост2КонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ДР0917_МетодUniServerAUTOПост2РасширеннаяПодсказка" id="18"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+</Form>
